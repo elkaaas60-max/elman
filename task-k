@@ -1,0 +1,5 @@
+v = int(input())
+v = v % 1440
+c = v //60
+b = v % 60
+print(c,b)
