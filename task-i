@@ -1,0 +1,6 @@
+v = int(input())
+a = v // 100
+b = (v//10) %10
+c = v %10
+g = a+b+c
+print(g)
